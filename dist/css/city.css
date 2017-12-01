@@ -1,0 +1,134 @@
+.none {
+    display: none;
+}
+
+.loan_jm1 {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.loan_jm_spa1 {
+    width: 39%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1em;
+    color: #666;
+    display: block;
+    float: left;
+}
+
+.loan_jm_l1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.wbk_srn {
+    width: 57%;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #FFF;
+    float: left;
+    padding-left: 3%;
+    line-height: 40px;
+    color: #ADADAD;
+    font-size: 1.1em;
+    background-size: 45%;
+    background-position: center;
+    background: #fff;
+}
+
+.wbk_srn b {
+    width: 30px;
+    height: 40px;
+    border: 1px solid #ccc;
+    background: #FFF;
+    float: left;
+    padding-left: 3%;
+    line-height: 40px;
+    color: #ADADAD;
+    font-size: 1.1em;
+}
+
+
+/*显示点击是哪个字母*/
+
+.showLetter {
+    position: fixed;
+    color: #e23838;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    border: #e23838 1px solid;
+    text-align: center;
+    display: none;
+}
+
+.showLetter span {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+
+/*城市弹层*/
+
+.container {
+    /* width:70%; */
+}
+
+.letter {
+    width: auto;
+    position: fixed;
+    top: 13%;
+    right: 10px;
+    text-align: center;
+    z-index: 20;
+}
+
+.letter ul {
+    list-style-type: none;
+}
+
+.letter ul li a {
+    text-decoration: none;
+    color: #545454;
+    font-size: .6rem;
+}
+
+.city {
+    background: #f8f8f8;
+}
+
+.city-list {
+    width: 100%;
+    background: #ffffff;
+}
+
+.city-list .city-letter {
+    padding: 0 0.75rem;
+    font-size: .8rem;
+    display: block;
+    background: #f8f8f8;
+    height: 2.25rem;
+    line-height: 2.25rem;
+}
+
+.city-list p {
+    padding: 0 0.75rem;
+    background: #ffffff;
+    font-size: 0.65rem;
+    color: #777676;
+    height: 2.15rem;
+    line-height: 2.15rem;
+    cursor: pointer;
+    border-bottom: 1px solid #f8f8f8;
+    margin-right: 1.5rem;
+}
+
+.UISelect {
+    margin-top: 5px
+}
