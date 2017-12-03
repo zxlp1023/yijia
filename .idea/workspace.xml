@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fd3b8ff6-dc4a-4604-ac83-a45fb54933fc" name="Default" comment="" />
+=======
+    <list default="true" id="fd3b8ff6-dc4a-4604-ac83-a45fb54933fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/yiren.css" afterPath="$PROJECT_DIR$/dist/css/yiren.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/yiren.css.map" afterPath="$PROJECT_DIR$/dist/css/yiren.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/_public.scss" afterPath="$PROJECT_DIR$/src/css/_public.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/yiren.scss" afterPath="$PROJECT_DIR$/src/css/yiren.scss" />
+    </list>
+>>>>>>> add cart
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,6 +29,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="512">
                   <caret line="188" column="44" lean-forward="false" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
                   <folding>
@@ -33,6 +44,11 @@
                     <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+=======
+                <state relative-caret-position="623">
+                  <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+                  <folding />
+>>>>>>> add cart
                 </state>
               </provider>
             </entry>
@@ -40,11 +56,17 @@
           <file leaf-file-name="yiren.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/css/yiren.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="980">
                   <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
                   <folding>
                     <element signature="e#1737#1810#0" expanded="false" />
                   </folding>
+=======
+                <state relative-caret-position="525">
+                  <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+                  <folding />
+>>>>>>> add cart
                 </state>
               </provider>
             </entry>
@@ -52,9 +74,53 @@
           <file leaf-file-name="_public.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/css/_public.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="0">
                   <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
                   <folding />
+=======
+                <state relative-caret-position="225">
+                  <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+                  <folding>
+                    <marker date="1512178493868" expanded="true" signature="296:316" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="322:343" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="349:369" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="561:587" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="594:616" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="624:643" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="686:737" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="745:771" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="779:805" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="813:838" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="846:871" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="931:954" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="961:985" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="993:1018" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1031:1213" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1228:1265" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1281:1318" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1334:1371" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1387:1423" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1439:1475" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1491:1527" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1543:1579" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1595:1631" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1643:1744" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1764:1835" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="1968:2010" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2021:2399" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2210:2262" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2278:2340" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2363:2397" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2409:3204" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2426:3202" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2520:2701" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2611:2691" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2718:3196" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="2827:3186" ph="{...}" />
+                    <marker date="1512178493868" expanded="true" signature="3085:3172" ph="{...}" />
+                  </folding>
+>>>>>>> add cart
                 </state>
               </provider>
             </entry>
@@ -62,8 +128,13 @@
           <file leaf-file-name="yiren.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dist/css/yiren.css">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="784">
                   <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+=======
+                <state relative-caret-position="1050">
+                  <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+>>>>>>> add cart
                   <folding />
                 </state>
               </provider>
@@ -76,11 +147,17 @@
           <file leaf-file-name="yiren.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/css/yiren.scss">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="336">
                   <caret line="20" column="146" lean-forward="false" selection-start-line="20" selection-start-column="146" selection-end-line="20" selection-end-column="146" />
                   <folding>
                     <element signature="e#1737#1810#0" expanded="false" />
                   </folding>
+=======
+                <state relative-caret-position="196">
+                  <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+                  <folding />
+>>>>>>> add cart
                 </state>
               </provider>
             </entry>
@@ -117,6 +194,12 @@
       <replace>@include red;</replace>
     </replaceStrings>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+>>>>>>> add cart
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -126,8 +209,13 @@
         <option value="$PROJECT_DIR$/css/iconfont.css" />
         <option value="$PROJECT_DIR$/dist/css/yiren.css" />
         <option value="$PROJECT_DIR$/src/css/_public.scss" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/css/yiren.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+=======
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/css/yiren.scss" />
+>>>>>>> add cart
       </list>
     </option>
   </component>
@@ -142,6 +230,10 @@
     <option name="width" value="1319" />
     <option name="height" value="1047" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> add cart
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -208,6 +300,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+<<<<<<< HEAD
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> add cart
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -245,11 +341,20 @@
       <workItem from="1511937539228" duration="4196000" />
       <workItem from="1512005454071" duration="34654000" />
       <workItem from="1512091755314" duration="598000" />
+<<<<<<< HEAD
+=======
+      <workItem from="1512175353357" duration="1043000" />
+      <workItem from="1512179664789" duration="86000" />
+>>>>>>> add cart
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="39448000" />
+=======
+    <option name="totallyTimeSpent" value="40577000" />
+>>>>>>> add cart
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -258,7 +363,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15661708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> add cart
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -286,6 +395,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="5264">
           <caret line="188" column="44" lean-forward="false" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
           <folding>
@@ -299,7 +409,80 @@
             <element signature="n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+=======
+        <state relative-caret-position="4350">
+          <caret line="174" column="0" lean-forward="true" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/_public.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1512178493868" expanded="true" signature="296:316" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="322:343" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="349:369" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="561:587" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="594:616" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="624:643" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="686:737" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="745:771" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="779:805" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="813:838" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="846:871" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="931:954" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="961:985" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="993:1018" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1031:1213" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1228:1265" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1281:1318" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1334:1371" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1387:1423" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1439:1475" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1491:1527" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1543:1579" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1595:1631" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1643:1744" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1764:1835" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1968:2010" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2021:2399" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2210:2262" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2278:2340" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2363:2397" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2409:3204" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2426:3202" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2520:2701" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2611:2691" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2718:3196" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2827:3186" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="3085:3172" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/yiren.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/yiren.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5264">
+          <caret line="188" column="44" lean-forward="false" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -307,7 +490,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding>
+            <marker date="1512178493868" expanded="true" signature="296:316" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="322:343" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="349:369" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="561:587" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="594:616" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="624:643" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="686:737" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="745:771" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="779:805" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="813:838" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="846:871" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="931:954" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="961:985" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="993:1018" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1031:1213" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1228:1265" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1281:1318" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1334:1371" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1387:1423" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1439:1475" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1491:1527" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1543:1579" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1595:1631" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1643:1744" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1764:1835" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1968:2010" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2021:2399" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2210:2262" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2278:2340" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2363:2397" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2409:3204" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2426:3202" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2520:2701" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2611:2691" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2718:3196" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2827:3186" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="3085:3172" ph="{...}" />
+>>>>>>> add cart
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/dist/css/yiren.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/yiren.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5264">
+          <caret line="188" column="44" lean-forward="false" selection-start-line="188" selection-start-column="44" selection-end-line="188" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> add cart
+    <entry file="file://$PROJECT_DIR$/src/css/_public.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+<<<<<<< HEAD
+          <folding />
+=======
+          <folding>
+            <marker date="1512178493868" expanded="true" signature="296:316" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="322:343" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="349:369" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="561:587" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="594:616" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="624:643" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="686:737" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="745:771" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="779:805" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="813:838" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="846:871" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="931:954" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="961:985" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="993:1018" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1031:1213" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1228:1265" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1281:1318" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1334:1371" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1387:1423" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1439:1475" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1491:1527" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1543:1579" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1595:1631" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1643:1744" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1764:1835" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1968:2010" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2021:2399" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2210:2262" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2278:2340" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2363:2397" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2409:3204" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2426:3202" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2520:2701" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2611:2691" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2718:3196" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2827:3186" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="3085:3172" ph="{...}" />
+          </folding>
+>>>>>>> add cart
         </state>
       </provider>
     </entry>
@@ -323,9 +622,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="980">
           <caret line="35" column="57" lean-forward="false" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1737#1810#0" expanded="false" />
           </folding>
+=======
+          <folding />
+>>>>>>> add cart
         </state>
       </provider>
     </entry>
@@ -333,6 +636,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -345,6 +649,9 @@
             <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+=======
+          <folding />
+>>>>>>> add cart
         </state>
       </provider>
     </entry>
@@ -396,14 +703,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/yiren.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="784">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+=======
+        <state relative-caret-position="1050">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+>>>>>>> add cart
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/_public.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
@@ -436,8 +749,85 @@
             <element signature="n#style#0;n#label#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="225">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <marker date="1512178493868" expanded="true" signature="296:316" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="322:343" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="349:369" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="561:587" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="594:616" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="624:643" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="686:737" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="745:771" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="779:805" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="813:838" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="846:871" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="931:954" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="961:985" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="993:1018" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1031:1213" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1228:1265" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1281:1318" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1334:1371" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1387:1423" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1439:1475" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1491:1527" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1543:1579" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1595:1631" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1643:1744" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1764:1835" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="1968:2010" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2021:2399" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2210:2262" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2278:2340" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2363:2397" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2409:3204" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2426:3202" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2520:2701" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2611:2691" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2718:3196" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="2827:3186" ph="{...}" />
+            <marker date="1512178493868" expanded="true" signature="3085:3172" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/yiren.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+>>>>>>> add cart
         </state>
       </provider>
     </entry>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+>>>>>>> add cart
 </project>

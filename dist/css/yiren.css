@@ -3,6 +3,13 @@ ul, li { list-style: none; }
 
 body { background: #f7f7f7; }
 
+<<<<<<< HEAD
+=======
+.weui-cell_access .weui-cell__ft:after { height: 0.4rem; width: 0.4rem; margin-top: -0.2rem; border-width: 1px 1px 0 0; border-color: #878787; }
+
+.hui94 { color: #949494; }
+
+>>>>>>> add cart
 .fl { float: left; }
 
 .fr { float: right; }
@@ -15,8 +22,17 @@ img { width: 100%; }
 
 .fz12 { font-size: 0.6rem; }
 
+<<<<<<< HEAD
 .fz14 { font-size: 0.7rem; }
 
+=======
+.fz13 { font-size: 0.65rem; }
+
+.fz14 { font-size: 0.7rem; }
+
+.fz15 { font-size: 0.65rem; }
+
+>>>>>>> add cart
 .fz15b { font-size: 0.75rem; font-weight: bold; }
 
 .fz16 { font-size: 0.8rem; }
@@ -25,6 +41,11 @@ img { width: 100%; }
 
 .fz20 { font-size: 1rem; }
 
+<<<<<<< HEAD
+=======
+.pl10 { padding-left: .5rem; }
+
+>>>>>>> add cart
 .mt10 { margin-top: 10px; }
 
 .mt20 { margin-top: 20px; }
@@ -57,7 +78,11 @@ img { width: 100%; }
 
 .weui-btn_primary { background: white; color: #e23838; border: 1px solid #e23838; }
 
+<<<<<<< HEAD
 .weui-btn_primary:not(.weui-btn_disabled):active { background: #f9f9f9; }
+=======
+.weui-btn_primary:not(.weui-btn_disabled):active { background: #f9f9f9; color: #e23838; }
+>>>>>>> add cart
 
 .weui-btn_warn { background: #e23838; color: #fff; }
 
@@ -227,8 +252,34 @@ src: url("iconfont.eot?t=1512096362644#iefix") format("embedded-opentype"), url(
 /* comment */
 .proDetails { padding: .75rem; background: #fff; font-size: 0.7rem; padding-bottom: 3.5rem; }
 
+<<<<<<< HEAD
 .proFoot { height: 2.8rem; line-height: 2.8rem; background: #ffffff; position: fixed; bottom: 0; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; z-index: 30; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .proFoot .weui-btn { width: 33.333333%; margin: 0; }
 .proFoot .weui-btn:first-of-type { margin-right: 1.5rem; }
+
+.pay .weui-cell { height: 3.5rem; font-size: 0.7rem; }
+.pay .weui-agree__checkbox { width: 1.1rem; height: 1.1rem; border: none; background: #e23838; border-radius: 5px; }
+.pay .weui-agree__checkbox:checked:before { font-size: 1.1rem; color: #fff; padding: 2px; }
+.pay .weui-cells_checkbox .weui-icon-checked:before { font-size: 1.1rem; }
+.pay .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before { color: #e23838; }
+=======
+.proFoot { height: 2.5rem; line-height: 2.5rem; background: #ffffff; position: fixed; bottom: 0; width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; z-index: 30; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+.proFoot .weui-btn { width: 33.333333%; margin: 0; }
+.proFoot .weui-btn:first-of-type { margin-right: 1.5rem; }
+
+.cart .weui-cells_checkbox .weui-icon-checked:before { font-size: 1rem; }
+.cart .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before { color: #e23838; }
+.cart .pic { width: 4.5rem; height: 4.5rem; margin: 0 0.7rem 0 0.5rem; }
+.cart .weui-cell__bd { -ms-flex-item-align: start; align-self: flex-start; }
+.cart .priceControl { padding-top: 1.2rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+.cart .priceControl .price:before { content: "¥"; }
+.cart .weui-count .weui-count__btn { border: 0; }
+.cart .weui-count .weui-count__increase { background: none; }
+.cart .weui-count .weui-count__btn:after, .cart .weui-count .weui-count__btn:before { background: #7c7c7c; }
+.cart .weui-count .weui-count__btn { vertical-align: -4px; }
+.cart .weui-count .weui-count__btn:after { margin-top: -5px; }
+.cart .weui-count .weui-count__number { border: 1px solid #7c7c7c; border-radius: 3px; font-size: 0.7rem; }
+.cart .weui-swiped-btn_warn { background: #f43b3e; font-size: 0.7em; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 0; width: 3.2rem; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+>>>>>>> add cart
 
 /*# sourceMappingURL=yiren.css.map */

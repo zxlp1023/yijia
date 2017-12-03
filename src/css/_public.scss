@@ -6,11 +6,30 @@ li {
 body {
     background: #f7f7f7;
 }
+<<<<<<< HEAD
 
 $w75:.75rem;
 $red:#e23838;
+$hui67:#676767;
 $hui76:#777676;
 $hui94:#949494;
+=======
+.weui-cell_access .weui-cell__ft:after {
+    height: 0.4rem;
+    width: 0.4rem;
+    margin-top: -0.2rem;
+    border-width: 1px 1px 0 0;
+    border-color: #878787;
+}
+$w75:.75rem;
+$red:#e23838;
+$price:'¥';
+$hui76:#777676;
+$hui94:#949494;
+.hui94 {
+    color:#949494
+}
+>>>>>>> add cart
 .fl {
     float: left;
 }
@@ -51,9 +70,12 @@ img {
     @include fz
 }
 
+.fz13 { @include fz(.65rem) }
 .fz14 {
     @include fz(.7rem)
 }
+.fz15 { @include fz(.65rem) }
+
 
 .fz15b {
     @include fz(.75rem);
@@ -71,7 +93,8 @@ img {
 .fz20 {
     @include fz(1rem)
 }
-
+// 控制距离
+.pl10{ padding-left: .5rem; }
 .mt10 {
     margin-top: 10px;
 }
@@ -150,7 +173,8 @@ $hui34:#c4c4c4;
 
 .weui-btn_primary:not(.weui-btn_disabled):active {
     background: #f9f9f9;
-    // color: rgba(202, 50, 50, 0.8)
+    // color: rgba(202, 50, 50, 0.8);
+    color:  $red;
 }
 
 .weui-btn_warn {
