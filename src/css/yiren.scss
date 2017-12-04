@@ -190,11 +190,7 @@
             height: 2.5rem;
             line-height: 2.5rem;
             border-bottom: 1px solid #eee;
-            .icon-location2 {
-                @include red;
-                font-size: 1rem;
-                padding-right: 0.25rem;
-            }
+            
             &:after {
                 content: '当前定位';
                 color: #999;
@@ -259,7 +255,7 @@
     }
 }
 
-//procuct infomation 商品详情
+// msg product 商品详情
 .proIntro {
     background: #fff;
     padding-top: 0.5rem;
@@ -350,7 +346,7 @@
     }
 }/* comment */
 
-// 详情
+// 产品详情 
 .proDetails{
   padding: .75rem;
   background: #fff;
@@ -379,30 +375,41 @@
   }
 }
 
-//支付
+//支付 pay
 .pay{
-    .weui-cell{
-        height: 3.5rem;
-        font-size: 0.7rem;
+    .weui-cells{margin-top: 15px;}
+    .weui-agree{ padding-top: 0;
+    padding-bottom: 0; display: flex; align-items: center;  height: 3.5rem;  justify-content: space-between; line-height:normal; background: #ffffff;
+      .weui-agree__text{
+          font-size: 0.7rem;
+        color: inherit;
+        span.red{  font-size: .9rem; }
+      }
+      input.weui-agree__checkbox{ width: 1rem; height: 1rem; right: 0.35rem;
+        &:before{ font-size: 1rem; background: $red; color: #fff; border:5px solid $red; border-radius: 4px;}
+      }
     }
-    .weui-agree__checkbox{
-        width: 1.1rem;
-        height: 1.1rem;
-        border: none;
-        background: $red;
-        border-radius: 5px;
-    }
-    .weui-agree__checkbox:checked:before{
-        font-size: 1.1rem; color: #fff;
-        padding: 2px;
-    }
-    .weui-cells_checkbox .weui-icon-checked:before{ font-size: 1.1rem; }
-    .weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{ color: $red;}
 
-//购物车
+    .weui-cells_checkbox .weui-icon-checked:before{ font-size: 1.2rem; } 
+
+
+    //微信支付
+    .weui-cell{ 
+        height: 3.5rem; padding: 0 15px; line-height: 1.2;
+    
+        .icon-wechat{ color: #01b700; font-size: 1.1rem; padding-right: .4rem;}
+        p{ font-size: 0.7rem;}
+        span{font-size: 0.6em; color: $hui67;}
+    }
+
+    .weui-btn_warn{height: 2rem; border-radius: 1rem;}
+    
+}
+//购物车 cart
 .cart{
+    padding-bottom: 4rem;
     .weui-cells_checkbox .weui-icon-checked:before{font-size: 1rem;}  //选中按钮
-    .weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{ color: $red;}
+    
     .pic {    width: 4.5rem;    height: 4.5rem; margin: 0 0.7rem 0 0.5rem;
         img{ }
     }
@@ -425,4 +432,82 @@
     .weui-count .weui-count__number{ border: 1px solid #7c7c7c; border-radius: 3px; font-size: 0.7rem; }
 
     .weui-swiped-btn_warn { background: #f43b3e; font-size: 0.7em; display: flex; align-items: center; padding: 0; width: 3.2rem; justify-content: center; }
+
+}
+.cartFoot{
+    position: fixed; bottom: 0; width: 100%; z-index: 10;
+    .weui-cell{ padding: 0 0 0 .5rem;}
+    .weui-cell__hd{ font-size: 0.75rem; padding-right: 0;}
+    .weui-cells{display: flex;}
+    .weui-cell-r{ flex: 1;}
+    .weui-cell__bd{ text-align: center; font-size: 0.65rem;}
+    a{width: 4.625rem; height: 3rem;  font-size: 0.75rem;}
+    .weui-cells_checkbox .weui-icon-checked:before{ font-size: 1rem;}
+    .price{ font-size: 0.75rem;}
+    .price:before{ content:$price;  padding-left:10px;}
+
+}
+
+//确认订单 confirm order
+.cfmOrder{
+     padding-bottom: 4rem;
+    .addr{
+        padding-bottom: 10px;
+       background: url('../../img/bd.png') repeat-x 0 bottom / auto 7px #fff;
+    }
+    .icon-location2{ padding-right: 0;}
+
+    .title{background: #ffffff;  display: flex; align-items: center;  justify-content: center; padding: 0.75rem 0;
+        
+        &:before,&:after{ width: 12%; content: ''; background: #161616; height: 1px; position: relative; right: 9%; }
+        &:after{left: 9%;}
+    }
+    .pic{
+        width: 4rem; height: 4rem; margin-right: 0.7rem;
+    }
+    .weui-count .weui-count__btn{ 
+        border: 0;border-radius: 0; background: #f5f5f5;  vertical-align: -5px;
+        width: 30px;
+        height: 26px;line-height: 26px;
+    }
+
+    .weui-count .weui-count__btn:after, .weui-count .weui-count__btn:before{
+        background: #999; height: 2px; width: 12px;
+        margin-left: -5px;
+        
+    }
+
+    .weui-count .weui-count__btn:after{ height: 12px; width: 2px; margin-left: 0px; margin-top: -5.5px;}
+
+    .list{
+        background: #ffffff;
+        .weui-cell{padding: 5px 0;}
+        .weui-cell__bd{line-height: 1.8;}
+    }
+    .list:first-child{
+        &:before{ border: 0;}
+    }
+
+    .carriage{
+        background: #ffffff;height: 1.7rem;
+        .price{}
+    }
+
+    .needPay{
+        background: #ffffff;
+         border-top: 1px solid #e5e5e5;
+         padding: 0 15px; 
+         height: 2.1rem;
+         display: flex;
+         align-items: center;
+         justify-content: flex-end;
+    }
+
+} /* /cfmOrder */
+
+.cfmOrderFoot{
+    .weui-cell__bd{text-align: left;}
+    .weui-btn{
+        height: 2.5rem; width: 5rem;
+    }
 }

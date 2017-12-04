@@ -6,14 +6,6 @@ li {
 body {
     background: #f7f7f7;
 }
-<<<<<<< HEAD
-
-$w75:.75rem;
-$red:#e23838;
-$hui67:#676767;
-$hui76:#777676;
-$hui94:#949494;
-=======
 .weui-cell_access .weui-cell__ft:after {
     height: 0.4rem;
     width: 0.4rem;
@@ -24,12 +16,13 @@ $hui94:#949494;
 $w75:.75rem;
 $red:#e23838;
 $price:'¥';
+$hui67:#676767;
 $hui76:#777676;
 $hui94:#949494;
+.hui72{color: #727272;}
 .hui94 {
     color:#949494
 }
->>>>>>> add cart
 .fl {
     float: left;
 }
@@ -74,7 +67,7 @@ img {
 .fz14 {
     @include fz(.7rem)
 }
-.fz15 { @include fz(.65rem) }
+.fz15 { @include fz(.75rem) }
 
 
 .fz15b {
@@ -95,9 +88,12 @@ img {
 }
 // 控制距离
 .pl10{ padding-left: .5rem; }
+.mt0 { margin-top: 0; }
+.mt1 { margin-top: 1px; }
 .mt10 {
     margin-top: 10px;
 }
+.mt15{ margin-top: 15px;}
 
 .mt20 {
     margin-top: 20px;
@@ -114,6 +110,13 @@ $hui34:#c4c4c4;
 
 .p075 {
     padding: 0 .75rem
+}
+
+// 图标 icon 
+.icon-location2 {
+    @include red;
+    font-size: 1rem !important;
+    padding-right: 0.25rem;
 }
 
 //评分
@@ -159,11 +162,15 @@ $hui34:#c4c4c4;
 }
 
 .weui-btn {
-    height: 1.75rem;
-    line-height: 1.75rem;
+   /*  height: 1.75rem;
+    line-height: 1.75rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: .875rem;
     font-size: 0.7rem;
 }
+.btn-radius0{border-radius: 0;}
 
 .weui-btn_primary {
     background: white;
@@ -181,6 +188,8 @@ $hui34:#c4c4c4;
     background: $red;
     color: #fff;
 }
+.weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{ color: $red;}
+.price{ &:before{ content: '¥'; }}
 
 .backBar {
     position: relative;
