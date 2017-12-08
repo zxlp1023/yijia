@@ -19,9 +19,22 @@ $(function () {
         })
 
     //删除历史纪录
-    $('.icon-trash').click(function () {
+    $('#dltSearch').click(function () {
         $(this).parent().siblings().remove();
     })
+
+    //收获地址
+    $('.addr-manage .default').click(function(){
+        //设置默认地址
+        $(this).find('.weui-icon-circle').addClass("weui-icon-success").parents('dl').siblings().find('.weui-icon-circle').removeClass('weui-icon-success');
+    })
+
+    //删除地址
+    $('.addr-manage .delete').click(function () {
+        $(this).parents('dt').parent().remove();
+    })
+
+
 
 
 });

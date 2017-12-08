@@ -23,6 +23,7 @@ $hui94:#949494;
 .hui94 {
     color:#949494
 }
+#bgf{ background: #ffffff;}
 .fl {
     float: left;
 }
@@ -78,6 +79,9 @@ img {
 .fz16 {
     @include fz(.8rem)
 }
+.fz17 {
+    @include fz(.85rem)
+}
 
 .fz18 {
     @include fz(.9rem)
@@ -129,37 +133,23 @@ $hui34:#c4c4c4;
     background-size: 86px auto;
 }
 
-.star.star-0 {
-    background-position: 0 -134px
-}
+.star.star-0 { background-position: 0 -134px }
+.star.star-10 { background-position: 0 -117px }
+.star.star-20 { background-position: 0 -100px }
+.star.star-30 { background-position: 0 -83px }
+.star.star-35 { background-position: 0 -66px }
+.star.star-40 { background-position: 0 -49px }
+.star.star-45 { background-position: 0 -32px }
+.star.star-50 { background-position: 0 -15px }
 
-.star.star-10 {
-    background-position: 0 -117px
-}
-
-.star.star-20 {
-    background-position: 0 -100px
-}
-
-.star.star-30 {
-    background-position: 0 -83px
-}
-
-.star.star-35 {
-    background-position: 0 -66px
-}
-
-.star.star-40 {
-    background-position: 0 -49px
-}
-
-.star.star-45 {
-    background-position: 0 -32px
-}
-
-.star.star-50 {
-    background-position: 0 -15px
-}
+.comments .star.star-0 { background-position: 0 -214.4px }
+.comments .star.star-10 { background-position: 0 -187.2px }
+.comments .star.star-20 { background-position: 0 -160px }
+.comments .star.star-30 { background-position: 0 -132.8px }
+.comments .star.star-35 { background-position: 0 -105.6px }
+.comments .star.star-40 { background-position: 0 -78.4px }
+.comments .star.star-45 { background-position: 0 -51.2px }
+.comments .star.star-50 { background-position: 0 -24px }
 
 .weui-btn {
    /*  height: 1.75rem;
@@ -170,7 +160,7 @@ $hui34:#c4c4c4;
     border-radius: .875rem;
     font-size: 0.7rem;
 }
-.btn-radius0{border-radius: 0;}
+.btn-radius0{border-radius: 0 !important;}
 
 .weui-btn_primary {
     background: white;
@@ -189,7 +179,9 @@ $hui34:#c4c4c4;
     color: #fff;
 }
 .weui-cells_checkbox .weui-check:checked+.weui-icon-checked:before{ color: $red;}
-.price{ &:before{ content: '¥'; }}
+.price{ 
+    color: #fd5757;
+    &:before{ content: '¥'; }}
 
 .backBar {
     position: relative;
@@ -198,7 +190,7 @@ $hui34:#c4c4c4;
     align-content: center;
     height: 2.2rem;
     color: #fff;
-    @include fz(.7rem);
+    @include fz(.85rem);
     @include redBg;
     .title {
         text-align: center;
@@ -207,10 +199,9 @@ $hui34:#c4c4c4;
     .icon-back {
         font-size: 1.2rem;
         position: absolute;
+        &:before {        padding: 0 0.4rem;    }
     }
-    .icon-back:before {
-        padding: 0 0.4rem;
-    }
+    a{  position: absolute; right: 0; color: inherit; width: 2rem; height: 2.2rem; line-height: 2.2rem; font-size: 0.7em; padding-left: 1rem; }//添加按钮
 }
 
 .header {
