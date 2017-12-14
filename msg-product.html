@@ -41,7 +41,7 @@
     <span><i class="weui-icon-success"></i>平台推荐</span>
   </div>
 
-  <div class="weui-panel  comment">
+  <div class="weui-panel  commentsPro">
     <div class="weui-panel__hd fz15b">评论 <span class="star star-50"></span> <span class="score">5.0</span></div>
     <div class="weui-panel__bd">
       <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
@@ -56,22 +56,34 @@
           <p class="weui-media-box__desc">东西不错，我很喜欢，送来的时候态度也很好，很方 便下次还这样买，挺不错的</p>
         </div>
       </a>
+      <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
+        <div class="weui-media-box__hd">
+          <img class="weui-media-box__thumb" src="img/up/a1.jpg" alt="">
+        </div>
+        <div class="weui-media-box__bd">
+          <h4 class="weui-media-box__title">勿忘初心</h4>
+          <div class="myStar">
+            <span class="star star-50"></span> <span>2015-12-08</span> 
+          </div>
+          <p class="weui-media-box__desc">东西不错，我很喜欢，送来的时候态度也很好，很方 便下次还这样买，挺不错的</p>
+        </div>
+      </a>
     </div>
     <div class="weui-panel__ft">
-      <a href="javascript:void(0);" class="weui-cell weui-cell_access weui-cell_link">
+      <a href="comments-product.html" class="weui-cell weui-cell_access weui-cell_link">
         <div class="weui-cell__bd">查看全部84条评论</div>
         <span class="weui-cell__ft"></span>
       </a>
     </div>
-  </div> <!-- /comment -->
+  </div> <!-- /commentsPro -->
   <div class="proDetails mt10">
     这里是详情介绍
     <img src="img/up/banner.jpg" alt="图片详情介绍">
      图片详情介绍
   </div>
   <div class="proFoot">
-    <a href="javascript:;" class="weui-btn weui-btn_primary">加入购物车</a>
-    <a href="javascript:;" class="weui-btn weui-btn_warn">立即购买</a>
+    <a href="javascript:;" id='show-toast' class="weui-btn weui-btn_primary">加入购物车</a>
+    <a href="confirm-order.html" class="weui-btn weui-btn_warn">立即购买</a>
   </div>
 
 
@@ -88,7 +100,22 @@
   $(".swiper-container").swiper({
     loop: false,
     autoplay: 3000
-  });
+  });   
+</script>
+<script>
+  $(document).on("click", "#show-toast", function () {
+      $.toast("成功加入购物车", function () {   
+        console.log( '已加入购物车')
+         });    
+    })
+      
+
+    /* .on("click", "#show-toast-text", function () {
+      $.toast("成功加入购物车", "text");
+      setTimeout(function () {
+        $.hideLoading();
+      }, 2000)
+    }); */
 </script>
 <script src="js/yiren.js"></script>
 

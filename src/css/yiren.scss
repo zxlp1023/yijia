@@ -124,36 +124,20 @@
 //首页底部菜单
 .weui-tabbar {
     &:before{ border-top: none;}
-    z-index: 8;
+    z-index: 8; 
     background: #f3f3f3;
-    height: 2.45rem;
-    position: fixed;
-    .weui-tabbar__item {
-        padding: 0;
-    }
-    .weui-tabbar__label {
-        font-size: .6rem;
-    }
+    height: 2.5rem; align-items: center;
+    position: fixed; 
+    .weui-tabbar__item { padding-top: 0px; }
+    .weui-tabbar__label { font-size: .5rem; line-height: 1.2; }
     .weui-tabbar__item.weui-bar__item--on {
-        .iconfont {
-            color: #f74747;
-        }
-        .weui-tabbar__label {
-            color: #f74747;
-        }
+        .iconfont,.weui-tabbar__label {            color: #f74747;        }
     }
-    .weui-tabbar__icon {
-        /* width: 1rem;*/
-    }
-    .weui-tabbar__icon>i,
-    i.weui-tabbar__icon {
-        font-size: 1.2rem;
-    }
-    /*
-    .weui-tabbar__item:nth-child(1) .iconfont{ font-size: 1rem;}
-    .weui-tabbar__item:nth-child(2) .iconfont{ font-size: 1.1rem;}
-    .weui-tabbar__item:nth-child(3) .iconfont{ font-size: 1.3rem;position: relative; top: -3px;}
-    .weui-tabbar__item:nth-child(4) .iconfont{ font-size: 1rem;}*/
+    .weui-tabbar__icon>i,    i.weui-tabbar__icon {  color: #bebebe;   display: block;  }
+    .icon-home{ font-size: 20px; }
+    .icon-message{ font-size: 23px; margin-top: -2px; }
+    .icon-money{ font-size: 26px; margin-top: -5px; }
+    .icon-me{ font-size: 20px; }
 }
 
 .cityBox {
@@ -296,11 +280,9 @@
     }
 }
 
-.comment {
+.commentsPro {
     background: #fff;
-    .weui-media-box_appmsg {
-        align-items: initial;
-    }
+    .weui-media-box_appmsg { align-items: initial; }
     .weui-panel__hd {
         display: flex;
         align-items: center;
@@ -344,7 +326,7 @@
         font-size: 0.65rem;
         color: $red;
     }
-}/* comment */
+}/* commentsPro */
 
 // 产品详情 
 .proDetails{
@@ -374,8 +356,8 @@
     margin-right: 1.5rem;
   }
 }
-//查看全部评价
-.comments{
+//commentsPro 查看全部评价
+.commentsListPro{
     
     .result{padding: 0 .75rem; background: #ffffff; display: flex; align-items: center; justify-content: space-around; height: 4.25rem; color: #ffd200; }
     
@@ -386,7 +368,7 @@
     }
     .star{    background-size: 137px auto; width: 137px;height: 22px;; }
     
-    .list{}
+    // .list{}
     dl{padding: 1.15rem .75rem;  background: #ffffff; margin-top: 1px; }
     dt{ 
         display: flex;  align-items: center; 
@@ -422,7 +404,7 @@
     
         .icon-wechat{ color: #01b700; font-size: 1.1rem; padding-right: .4rem;}
         p{ font-size: 0.7rem;}
-        span{font-size: 0.6em; color: $hui67;}
+        span{font-size: 0.6rem; color: $hui67;}
     }
     .weui-btn_warn{height: 2rem; border-radius: 1rem;}
     //支付成功
@@ -517,7 +499,7 @@
 
     .list{
         background: #ffffff;
-        .weui-cell{padding: 5px 0;}
+        .weui-cell{padding: .5rem .75rem ;}
         .weui-cell__bd{line-height: 1.8;}
     }
     .list:first-child{
@@ -754,7 +736,7 @@
         .icon-edit,.icon-trash3{ font-size: 0.8rem;}
         p{
             color: #6e6e6e;
-            span{ margin-left: 1.5rem; }
+            .delete{ margin-left: 1.5rem; }
         }
     }
 }
@@ -787,7 +769,7 @@
     .weui-media-box__desc{margin-top: .2rem; font-size: 0.6rem; color: $hui94;}
     .weui-media-box__ft .price{ color: inherit; font-size: 0.7rem;}
     .weui-media-box__ft span{ 
-        color: $hui94;
+        color: $hui94; font-size: 0.6rem;
         &:before{content: "x";}
     }
 
@@ -826,3 +808,203 @@
         }
     }
 } //logistics
+
+//orderDetails  订单详情
+.orderDetails{ margin-top: 0.5rem;  background: #ffffff; 
+    .weui-panel__hd{
+        background: #ffffff; font-size: 0.7rem; padding: 0 .75rem;  line-height: 1.75rem; color: inherit;
+        span{font-size: 0.6rem;}
+        &:after{ left: 0; }
+    }
+    .weui-media-box_appmsg{
+        background: #f7f7f7; margin-top: 0.25rem;
+        &:before{ border-top: 0;}
+        &:first-of-type{ margin-top: 0;}
+    }
+    .weui-panel__ft{
+         padding: 0.3rem 0; font-size: 0.6rem; line-height: 2; overflow: hidden;
+         .bb1{ padding-bottom: 5px; margin-bottom: 5px; margin-left: 0.75rem;}
+         p{ padding: 0 .75rem;}
+         border-bottom: 1px solid #e7e7e7;
+    }
+
+    &.proFoot{
+        border-top: 1px solid #e7e7e7;
+        height: 2.75rem;  justify-content: space-between; padding: 0 4%; box-sizing: border-box;
+        .weui-btn{ height: 1.3rem; line-height: 1.3rem; width: 23%; padding: 0; 
+            &:first-of-type{ width: auto; }
+        }
+        .weui-btn_plain-default{ border:0;}
+        .weui-btn_disabled.weui-btn_primary{ background: inherit;}
+    }
+}
+
+
+//orders 我的订单  订单状态
+
+    .weui-navbar{
+        background: #ffffff; justify-content: space-around;
+    }
+    .weui-navbar__item{ color: $hui94; font-size: 0.75rem; padding: 9px 0;  flex:inherit;
+        &:after{border: 0;}
+    }
+    .weui-navbar__item.weui-bar__item--on{
+        color: $red; background: 0;
+        border-bottom: 3px solid $red;
+    }
+    .weui-navbar+.weui-tab__bd{padding-top: 45px;}
+.orders{
+
+    background:none; margin-top: 0.3rem;
+    .orderDetails{ background: inherit; }
+    .weui-panel{margin-top: 0.3rem; background: inherit;}
+    .weui-panel__hd{color: #999; border-bottom: 1px solid #e7e7e7;  font-size: 0.6rem;}
+    .weui-panel__hd:after{border:0;}
+    .weui-media-box_appmsg{ background: #ffffff; /* border-bottom: 1px solid #e7e7e7; */}
+    .weui-btn{width: 23%; margin-top: 10px; margin-right: .75rem; height: 1.3rem; line-height: 1.3rem; padding: 0; display: inline-flex; }
+    .weui-btn_default{ background: none;  color:inherit; border:1px solid #d8d8d8;}
+    // .weui-btn+.weui-btn{margin-top: 10px;}
+    .weui-panel__ft{ border-top: 1px solid #e7e7e7; padding-bottom: .75rem;background: #ffffff;  border-bottom: none; }
+    
+}
+
+//withdraw 提现
+
+.withdraw{
+    .weui-cell{ 
+        background: #ffffff;
+        height: 3.3rem; padding: 0 15px; line-height: 1.2;
+    
+        .icon-wechat{ color: #01b700; font-size: 1.1rem; padding-right: .75rem;}
+        p{ font-size: 0.8rem;}
+        span{font-size: 0.7rem; color: $hui67;}
+    }
+    .bd{ 
+        background: #fff; padding: .5rem .75rem 0 ;  margin-top: 0.5rem;
+        .weui-cell{
+            height:auto; padding: .75rem 0;
+            span.red{color: $red;}
+        }
+    
+    }
+    #remind{
+        position: relative;  
+         p{display: none; font-size: 0.7rem; position: absolute; top:0; left: 0; background: #ffffff; }
+    }
+    .weui-cell:before{border-top: none;}
+    .withdrawNumber{height: auto; font-size: 1.5rem;  padding: 15px 0;
+        .weui-label{width: 1.2rem;}
+    }
+    input{ font-size: 1.2rem; padding: .3rem 0;    }
+    p.bt1{ line-height: 2.25rem;}
+    
+    .weui-btn_warn{ background: $red; height: 2.3rem; line-height: 2.3rem; margin-top: 3rem; border-radius: 1.65rem; font-size: 0.85rem;}
+
+    
+
+} 
+
+
+//topUp 充值
+
+.topUp{
+    .weui-btn_warn{margin-top: 0.75rem; border-radius: 4px;}
+}
+
+//details 明细
+.details{
+     margin-top: 0; 
+    .weui-cell__bd p:first-of-type{ font-size: .75rem; }
+    .weui-cell__bd p:last-of-type{ font-size: .6rem; color:#727272; }
+    .weui-cell__ft{font-size: 1rem; color: inherit; }
+    .weui-cell.in .weui-cell__ft { color: $red;}
+}
+
+//comment 评价
+.comment{
+    background: #ffffff;  padding-bottom: 10px;
+    .pro{padding: .75rem;}
+    
+    .weui-media-box_appmsg{ background: #f7f7f7; }
+    .weui-media-box__hd{ width: 2.5rem; height: 2.5rem;}
+    .weui-media-box__bd{padding-right: 0;}
+
+    .bd{ text-align: center; margin-top: 5px; }
+    .star{margin: 1.1rem 0 1.5rem;}
+    .textareaBg{ background: #fafafa; border:1px solid #ededed;  border-radius: 4px; margin:0 15px 10px;padding: 10px 10px 5px;}
+    textarea{ background: none; /* color: #9d9d9d;  */font-size: 0.7rem; }
+    textarea::-webkit-input-placeholder { color: #9d9d9d; }
+    // .weui-textarea-counter{ color: #9d9d9d;}
+
+    .weui-cell:before{border-top: 0;}
+    .weui-uploader__input-box{
+        width: 3.4rem; height: 3.4rem;
+        border: 1px solid #e4e4e4; border-radius:4px;
+        background: url(../../img/icon/camera.png) no-repeat center center / contain;
+    }
+    .weui-uploader__file{ width: 3.5rem; height: 3.5rem;}
+    .weui-uploader__input-box:after, .weui-uploader__input-box:before{display: none;}
+}
+
+.btn-comment{height: 2.25rem; line-height: 2.25rem; margin-top: 0.75rem; border-radius: 1.125rem;}
+
+
+//call 网络电话
+.call{ padding-bottom: 3rem;
+    .weui-input{text-align: center; font-size: 2rem; font-weight: 300;     }
+    .weui-label{width: 1.25rem; }
+    .icon-tuige{ font-size: 1.25rem; }
+    .weui-btn_warn{ width: 3.75rem; height: 3.75rem; border-radius: 50%; }
+    .weui-cell__bd{width: 80%; overflow: hidden; }
+    .weui-cell__hd{ margin-left: 0.5rem; }
+   
+    .icon-tel{ 
+        font-size: 1.5rem; color: #ffffff; transform: rotate(-135deg)
+    }
+
+}
+.keyboard{
+    padding: 0 8%; overflow: hidden;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+
+    a{width: 33.333333%; float: left; color: inherit; text-align: center; }
+    a:last-child dt{ font-size: 1.35rem;}
+    a:nth-last-child(3) dt{margin-top: 0.5rem;}
+    dl{ width: 3.75rem; height: 3.75rem; margin: 0 auto; margin-bottom: 0.75rem; border-radius: 50%; border:1px solid #a6aebf; box-sizing: border-box; display: flex; align-items: center; justify-content: center; flex-direction: column;  }
+    dl:active{background: $red; color:#fff; border-color: $red;}
+    dt{ font-size: 1.8rem; font-weight: 300; line-height: .9;  }
+    dd{font-size: 0.5rem;}
+}
+@media screen and (max-width:320px) {
+    .call .weui-input{font-size: 1.8rem;}
+    .keyboard dl,.weui-btn_warn{ width: 3.25rem; height: 3.25rem;}
+}
+
+//callAwait 呼叫等待 
+.callAwait{ color: #ffffff; text-align: center;
+    .backBar{background: #000000;}
+    .person{ 
+        position: relative; top: 6.25rem;
+        font-size: 0.85rem; padding-bottom: 5rem;
+        img{width: 4rem;  height: 4rem; display: inline-block;  }
+        span{ display: block; }
+        p{ margin-top: .75rem;  }
+    }
+
+    .icon-tel{ 
+        font-size: 1.5rem; color: #ffffff; /* transform: rotate(-135deg) */
+    }
+    .weui-btn_warn,.weui-btn_success{ width: 3.25rem; height: 3.25rem; border-radius: 50%; }
+    .weui-btn_success{background: #40d151;
+        .icon-tel{ transform: rotate(-135deg) }
+    }
+
+    footer{
+        display: flex; justify-content: space-evenly; align-items: center;
+        position: fixed; width: 100%; height: 5rem; bottom: 1rem;
+        p{font-size: 0.7rem; padding-top: .5rem;}
+
+    }
+}

@@ -1,6 +1,8 @@
 @charset "UTF-8";
-ul,
-li {
+a {
+  color: inherit; }
+
+ul, li {
   list-style: none; }
 
 body {
@@ -21,6 +23,12 @@ body {
 
 #bgf {
   background: #ffffff; }
+
+#bg0 {
+  background: #000; }
+
+.weui-btn_primary:not(.weui-btn_disabled):visited {
+  color: #e23838; }
 
 .fl {
   float: left; }
@@ -129,29 +137,31 @@ img {
 .star.star-50 {
   background-position: 0 -15px; }
 
-.comments .star.star-0 {
+.commentsListPro .star.star-0 {
   background-position: 0 -214.4px; }
-
-.comments .star.star-10 {
+.commentsListPro .star.star-10 {
   background-position: 0 -187.2px; }
-
-.comments .star.star-20 {
+.commentsListPro .star.star-20 {
   background-position: 0 -160px; }
-
-.comments .star.star-30 {
+.commentsListPro .star.star-30 {
   background-position: 0 -132.8px; }
-
-.comments .star.star-35 {
+.commentsListPro .star.star-35 {
   background-position: 0 -105.6px; }
-
-.comments .star.star-40 {
+.commentsListPro .star.star-40 {
   background-position: 0 -78.4px; }
-
-.comments .star.star-45 {
+.commentsListPro .star.star-45 {
   background-position: 0 -51.2px; }
-
-.comments .star.star-50 {
+.commentsListPro .star.star-50 {
   background-position: 0 -24px; }
+
+.text-right {
+  text-align: right; }
+
+.bt1 {
+  border-top: 1px solid #e7e7e7; }
+
+.bb1 {
+  border-bottom: 1px solid #e7e7e7; }
 
 .weui-btn {
   /*  height: 1.75rem;
