@@ -6,6 +6,7 @@ ul,li {
 body {
     background: #f7f7f7;
 }
+.weui-search-bar__box .weui-search-bar__input{ -webkit-appearance:none}  //关闭苹果浏览器下面默认边框
 .weui-cell_access .weui-cell__ft:after {
     height: 0.4rem;
     width: 0.4rem;

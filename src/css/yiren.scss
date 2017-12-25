@@ -534,7 +534,8 @@
 .financial{
     @at-root .fncHd{
         color: #ffffff; height: 9.7rem; padding: 0 1.35rem; 
-        background: url(../../img/financialBg2.jpg) no-repeat center top  / cover;
+        background-image: url(../../img/financialBg2.jpg);
+        background-size: cover;
         p{ font-size: 0.6rem; }
         span{font-size: 2.125rem; }
         .backBar{background: none;}
@@ -574,7 +575,8 @@
 // 我的
 .account{
     height: 7.75rem; display: flex; align-items: center;  color: #ffffff;
-    background: url(../../img/myBg.jpg) no-repeat 0 0 / cover;
+    background-image: url(../../img/myBg.jpg) ;
+    background-size: cover;
     .weui-cell{padding: 0;}
     img{
         width: 4rem; height: 4rem; margin: 0 1rem; border-radius: 50%;
@@ -661,11 +663,13 @@
         span{font-size: 0.6rem; margin-top: 2rem; display: inline-block;}
         p{font-size: 2.3rem;}
     }
-    @at-root .walletBd{
-        width: 93.6%; height: 3.15rem; margin: -1.575rem auto 0; border-radius: 8px; display: flex; align-items: center;       box-shadow: 0 1px 6px #e8e8e8;
-        background: #ffffff;  justify-content: space-evenly; /* font-size: 0.6rem; */
-        a{color: inherit;} 
-        span{ height: 1.6rem; background: #eee; width: 1px;}
+    @at-root .walletBd{ 
+        width: 93.6%; height: 3.15rem;line-height: 3.15rem; text-align: center; margin: -1.575rem auto 0; border-radius: 8px;
+        //  display: flex; align-items: center;      justify-content: space-evenly; /* font-size: 0.6rem; */
+          box-shadow: 0 1px 6px #e8e8e8;
+        background: #ffffff;  
+        a{color: inherit; display: inline-block; } 
+        span{ height: 1.6rem; background: #eee; width: 1px; margin:0 16% 0; display: inline-block; position: relative; top:0.775rem; }
         img{width: 1.2rem;  vertical-align: middle; margin-right: 10px;}
     }
 
@@ -845,7 +849,7 @@
     .weui-navbar{
         background: #ffffff; justify-content: space-around;
     }
-    .weui-navbar__item{ color: $hui94; font-size: 0.75rem; padding: 9px 0;  flex:inherit;
+    .weui-navbar__item{ color: $hui94; font-size: 0.75rem; padding: 9px 0;  /* flex:inherit; */
         &:after{border: 0;}
     }
     .weui-navbar__item.weui-bar__item--on{
@@ -954,13 +958,14 @@
     .weui-input{text-align: center; font-size: 2rem; font-weight: 300;     }
     .weui-label{width: 1.25rem; }
     .icon-tuige{ font-size: 1.25rem; }
-    .weui-btn_warn{ width: 3.75rem; height: 3.75rem; border-radius: 50%; }
+    .weui-btn_warn{ width: 3.75rem; height: 3.75rem; border-radius: 50%; position: relative; }
     .weui-cell__bd{width: 80%; overflow: hidden; }
     .weui-cell__hd{ margin-left: 0.5rem; }
    
     .icon-tel{ 
-        font-size: 1.5rem; color: #ffffff; transform: rotate(-135deg)
+        font-size: 1.5rem; color: #ffffff; transform: rotate(-135deg); position: absolute; left: -.45rem;
     }
+    .weui-btn:after{  border:none }
 
 }
 .keyboard{
@@ -1002,9 +1007,14 @@
     }
 
     footer{
-        display: flex; justify-content: space-evenly; align-items: center;
+
+        /* display: flex;  */justify-content: space-evenly; align-items: center;
         position: fixed; width: 100%; height: 5rem; bottom: 1rem;
+        div{ display: inline-block; padding: 0 10%;}
         p{font-size: 0.7rem; padding-top: .5rem;}
+        .weui-btn_warn{ position: relative;}
+        .icon-tel{position: absolute; left: -.7rem; top: -0.2rem; }
+
 
     }
 }
